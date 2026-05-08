@@ -1,59 +1,98 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Sudan Certificate Verification System | نظام توثيق الشهادات السودانية
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="public/images/official_trust.png" width="200" alt="Official Trust">
 </p>
 
-## About Laravel
+## Overview | نظرة عامة
+The **Sudan Certificate Verification System** is a robust, secure, and centralized platform designed to modernize the process of verifying academic credentials in Sudan. This system serves as a bridge between universities, graduates, and employers/institutions, ensuring the integrity of academic documents and preventing forgery.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**نظام توثيق الشهادات السودانية** هو منصة قوية وآمنة ومركزية مصممة لتحديث عملية التحقق من الشهادات الأكاديمية في السودان. يعمل هذا النظام كجسر بين الجامعات والخريجين وأصحاب العمل/المؤسسات، مما يضمن سلامة الوثائق الأكاديمية ويمنع التزوير.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Project Goal | هدف المشروع
+The primary goal is to provide a unified digital environment where academic certificates can be verified instantly and securely. By digitizing the verification process, we aim to:
+- Eliminate the reliance on manual, paper-based verification.
+- Provide a reliable tool for employers to confirm candidate credentials.
+- Protect the reputation of Sudanese academic institutions.
 
-## Learning Laravel
+الهدف الأساسي هو توفير بيئة رقمية موحدة حيث يمكن التحقق من الشهادات الأكاديمية بشكل فوري وآمن. من خلال رقمنة عملية التحقق، نهدف إلى:
+- القضاء على الاعتماد على التحقق اليدوي والورقي.
+- توفير أداة موثوقة لأصحاب العمل للتأكد من مؤهلات المرشحين.
+- حماية سمعة المؤسسات الأكاديمية السودانية.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Vision | الرؤية
+To become the definitive national reference for academic verification in Sudan, fostering a culture of transparency and digital excellence in the educational sector.
 
-## Laravel Sponsors
+أن نصبح المرجع الوطني النهائي للتوثيق الأكاديمي في السودان، وتعزيز ثقافة الشفافية والتميز الرقمي في قطاع التعليم.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## Project Structure & File Explanation | شرح ملفات المشروع
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+This project is built using the **Laravel Framework**, following the MVC (Model-View-Controller) architecture.
 
-## Contributing
+هذا المشروع مبني باستخدام **إطار عمل Laravel**، متبعاً بنية MVC (الموديل - العرض - المتحكم).
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Core Directories | المجلدات الأساسية:
 
-## Code of Conduct
+- **`app/`**: Contains the core logic of the application (Models, Controllers, and Middleware).
+  - *يحتوي على المنطق الأساسي للتطبيق (النماذج، المتحكمات، والبرمجيات الوسيطة).*
+- **`resources/views/`**: Contains the Blade templates for the UI (Admin dashboard, University portal, and Public verification form).
+  - *يحتوي على قوالب Blade لواجهة المستخدم (لوحة تحكم المسؤول، بوابة الجامعة، ونموذج التحقق العام).*
+- **`routes/`**: Defines the application's URLs and how they map to controllers.
+  - *يحدد روابط التطبيق وكيفية توجيهها للمتحكمات.*
+- **`public/`**: Stores public-facing assets like CSS, JavaScript, and Images (e.g., `images/security_privacy.png`).
+  - *يخزن الملفات العامة مثل CSS و JavaScript والصور.*
+- **`database/`**: Contains database migrations and seeders for initializing the system structure.
+  - *يحتوي على تهجير وقواعد بيانات النظام.*
+- **`config/`**: Configuration files for the application, database, and services.
+  - *ملفات الإعدادات للتطبيق وقاعدة البيانات والخدمات.*
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Documentation Files | ملفات التوثيق:
 
-## Security Vulnerabilities
+- **`chapter3_analysis.html`**: Detailed analysis of the system requirements and stakeholders.
+  - *تحليل مفصل لمتطلبات النظام وأصحاب المصلحة.*
+- **`chapter4_design.html`**: Full technical design, including UML diagrams and architecture patterns.
+  - *التصميم التقني الكامل، بما في ذلك مخططات UML وأنماط الهندسة.*
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## Installation & Setup | التثبيت والإعداد
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. **Clone the repository | استنساخ المستودع**:
+   ```bash
+   git clone https://github.com/beko2499/sudan-cert-verification.git
+   ```
+2. **Install dependencies | تثبيت التبعيات**:
+   ```bash
+   composer install
+   npm install
+   ```
+3. **Configure Environment | إعداد البيئة**:
+   - Rename `.env.example` to `.env`.
+   - Update database credentials.
+4. **Run Migrations | تشغيل التهجير**:
+   ```bash
+   php artisan migrate
+   ```
+5. **Start Dev Server | تشغيل الخادم**:
+   ```bash
+   php artisan serve
+   ```
+
+---
+
+## Technologies Used | التقنيات المستخدمة
+- **Backend**: Laravel (PHP)
+- **Frontend**: Blade, Tailwind CSS, JavaScript
+- **Database**: MySQL
+- **Documentation**: SVG Icons, HTML/CSS Reports
+
+---
+
+Developed with ❤️ for the future of Sudan.
+تم التطوير بكل حب لمستقبل السودان.
