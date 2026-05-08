@@ -1,7 +1,7 @@
 # Sudan Certificate Verification System | نظام توثيق الشهادات السودانية
 
 <p align="center">
-  <img src="public/images/official_trust.png" width="200" alt="Official Trust">
+  <img src="public/images/شعارونا.jpg" width="200" alt="Official Trust">
 </p>
 
 ## Overview | نظرة عامة
