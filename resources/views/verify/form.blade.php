@@ -60,7 +60,7 @@
 
     <!-- Security Note -->
     <div class="mt-8 bg-blue-50 border border-blue-200 px-4 py-4 rounded-lg text-blue-800 text-sm">
-        🔒 جميع عمليات التحقق تتم عبر قناة اتصال مشفرة وآمنة وفق المعايير الحكومية.
+        <svg xmlns="http://www.w3.org/2000/svg" class="inline w-5 h-5 ml-1 text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg> جميع عمليات التحقق تتم عبر قناة اتصال مشفرة وآمنة وفق المعايير الحكومية.
     </div>
 </div>
 

@@ -36,8 +36,8 @@
 
         <div class="bg-white border border-gray-200 rounded-xl shadow hover:shadow-lg transition p-8 text-center">
             <div class="flex justify-center mb-4">
-    <img src="{{ asset('images/رسمية.jpg') }}" alt="Handshake" class="h-20 w-auto">
-</div>
+                <img src="{{ asset('images/official_trust.png') }}" alt="موثوقية رسمية" class="h-24 w-24 object-contain">
+            </div>
             <h3 class="text-xl font-bold text-[#0D1B2A] mb-2">موثوقية رسمية</h3>
             <p class="text-gray-600 text-sm leading-relaxed">
                 النظام معتمد من وزارة التعليم العالي لضمان صحة الشهادات.
@@ -46,8 +46,8 @@
 
         <div class="bg-white border border-gray-200 rounded-xl shadow hover:shadow-lg transition p-8 text-center">
             <div class="flex justify-center mb-4">
-    <img src="{{ asset('images/تحقق.jpg') }}" alt="Handshake" class="h-20 w-auto">
-</div>
+                <img src="{{ asset('images/instant_verification.png') }}" alt="تحقق فوري" class="h-24 w-24 object-contain">
+            </div>
             <h3 class="text-xl font-bold text-[#0D1B2A] mb-2">تحقق فوري</h3>
             <p class="text-gray-600 text-sm leading-relaxed">
                 نتائج سريعة وواضحة خلال ثوانٍ فقط.
@@ -56,8 +56,8 @@
 
         <div class="bg-white border border-gray-200 rounded-xl shadow hover:shadow-lg transition p-8 text-center">
             <div class="flex justify-center mb-4">
-    <img src="{{ asset('images/امان.jpg') }}" alt="Handshake" class="h-20 w-auto">
-</div>
+                <img src="{{ asset('images/security_privacy.png') }}" alt="أمان وخصوصية" class="h-24 w-24 object-contain">
+            </div>
             <h3 class="text-xl font-bold text-[#0D1B2A] mb-2">أمان وخصوصية</h3>
             <p class="text-gray-600 text-sm leading-relaxed">
                 البيانات مشفرة ومحمية من الوصول غير المصرّح به.

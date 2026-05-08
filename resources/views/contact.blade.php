@@ -62,9 +62,9 @@
             <h2 class="text-2xl font-extrabold text-gray-900 mb-6">معلومات الاتصال</h2>
 
             <div class="space-y-4 text-gray-700">
-                <p><strong>📧 البريد:</strong> info@mohe.gov.sd</p>
-                <p><strong>☎️ الهاتف:</strong> +249 123 456 789</p>
-                <p><strong>🏛️ العنوان:</strong> وزارة التعليم العالي — الخرطوم، السودان</p>
+                <p><strong><svg xmlns="http://www.w3.org/2000/svg" class="inline w-5 h-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg> البريد:</strong> info@mohe.gov.sd</p>
+                <p><strong><svg xmlns="http://www.w3.org/2000/svg" class="inline w-5 h-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg> الهاتف:</strong> +249 123 456 789</p>
+                <p><strong><svg xmlns="http://www.w3.org/2000/svg" class="inline w-5 h-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"/></svg> العنوان:</strong> وزارة التعليم العالي — الخرطوم، السودان</p>
             </div>
         </div>
 

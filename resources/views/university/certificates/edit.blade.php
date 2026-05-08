@@ -159,7 +159,7 @@
                     <label class="block text-gray-700 font-medium mb-2">رفع نسخة PDF من الشهادة</label>
                     @if($certificate->pdf_file)
                         <div class="mb-2 p-3 bg-gray-100 rounded-lg flex items-center justify-between">
-                            <span class="text-sm text-gray-600">📄 يوجد ملف PDF مرفق حالياً</span>
+                            <span class="text-sm text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg> يوجد ملف PDF مرفق حالياً</span>
                             <a href="{{ asset('storage/' . $certificate->pdf_file) }}" 
                                target="_blank"
                                class="text-primary-600 hover:text-primary-800 text-sm">
@@ -207,7 +207,7 @@
                 إلغاء
             </a>
             <button type="submit" class="btn-primary">
-                💾 حفظ التعديلات
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4"/></svg> حفظ التعديلات
             </button>
         </div>
     </form>
@@ -223,7 +223,7 @@
                 @csrf
                 @method('DELETE')
                 <button type="submit" class="px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700">
-                    🗑️ حذف الشهادة
+                    <svg xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4 ml-1 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg> حذف الشهادة
                 </button>
             </form>
         </div>

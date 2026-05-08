@@ -17,7 +17,7 @@
                 <p class="text-gray-500 text-sm">الجامعات</p>
                 <h3 class="text-3xl font-bold text-blue-600 mt-1">{{ $stats['total_universities'] }}</h3>
             </div>
-            <div class="text-4xl">🏛️</div>
+            <div class="text-4xl"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"/></svg></div>
         </div>
     </div>
     
@@ -27,7 +27,7 @@
                 <p class="text-gray-500 text-sm">إجمالي الشهادات</p>
                 <h3 class="text-3xl font-bold text-green-600 mt-1">{{ $stats['total_certificates'] }}</h3>
             </div>
-            <div class="text-4xl">📜</div>
+            <div class="text-4xl"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></div>
         </div>
     </div>
     
@@ -37,7 +37,7 @@
                 <p class="text-gray-500 text-sm">معتمدة</p>
                 <h3 class="text-3xl font-bold text-emerald-600 mt-1">{{ $stats['verified_certificates'] }}</h3>
             </div>
-            <div class="text-4xl">✅</div>
+            <div class="text-4xl"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
         </div>
     </div>
     
@@ -47,7 +47,7 @@
                 <p class="text-gray-500 text-sm">عمليات التحقق</p>
                 <h3 class="text-3xl font-bold text-purple-600 mt-1">{{ $stats['total_verifications'] }}</h3>
             </div>
-            <div class="text-4xl">🔍</div>
+            <div class="text-4xl"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg></div>
         </div>
     </div>
     
@@ -57,7 +57,7 @@
                 <p class="text-gray-500 text-sm">هذا الشهر</p>
                 <h3 class="text-3xl font-bold text-orange-600 mt-1">{{ $stats['verifications_this_month'] }}</h3>
             </div>
-            <div class="text-4xl">📈</div>
+            <div class="text-4xl"><svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg></div>
         </div>
     </div>
 </div>

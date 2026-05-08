@@ -13,7 +13,7 @@
         <div class="flex gap-3">
             <a href="{{ route('university.certificates.edit', $certificate) }}" 
                class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-                ✏️ تعديل
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg> تعديل
             </a>
             <a href="{{ route('university.dashboard') }}" 
                class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">
@@ -26,7 +26,7 @@
     <div class="mb-6">
         @if($certificate->status === 'verified')
             <span class="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-green-100 text-green-800">
-                ✅ معتمدة
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline w-5 h-5 ml-1 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> معتمدة
             </span>
         @elseif($certificate->status === 'pending')
             <span class="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
@@ -34,7 +34,7 @@
             </span>
         @else
             <span class="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-orange-100 text-orange-800">
-                ⚠️ موقوفة
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline w-5 h-5 ml-1 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg> موقوفة
             </span>
         @endif
     </div>
@@ -117,7 +117,7 @@
                        id="verification-url">
                 <button onclick="copyUrl()" 
                         class="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700">
-                    📋 نسخ
+                    <svg xmlns="http://www.w3.org/2000/svg" class="inline w-5 h-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg> نسخ
                 </button>
             </div>
         </div>
@@ -129,7 +129,7 @@
             <a href="{{ asset('storage/' . $certificate->pdf_file) }}" 
                target="_blank"
                class="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-                📄 تحميل نسخة PDF
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg> تحميل نسخة PDF
             </a>
         </div>
         @endif
